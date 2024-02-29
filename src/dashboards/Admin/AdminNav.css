@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .hero-content{
+    align-items: center;
+    margin: 10px;
+    padding: auto;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('images.jpg');
+    background-position: center;
+  }
