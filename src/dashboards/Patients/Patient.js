@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./Patient.css";
+import "./CSS/Patient.css";
 import PatientNavbar from "./PatientNavbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function Patient() {
   const [email, setEmail] = useState("");

@@ -1,5 +1,6 @@
 import React from "react";
-import "./PatientNav.css";
+import "./CSS/PatientNav.css";
+import { Link } from "react-router-dom";
 
 function PatientNavbar() {
   return (
@@ -33,9 +34,9 @@ function PatientNavbar() {
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link" href="#">
-                  medical data
-                </a>
+                <Link className="nav-link" to="/medicaldata">
+                  Medical data
+                </Link>
               </li>
             </ul>
 
