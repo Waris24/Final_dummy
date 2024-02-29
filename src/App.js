@@ -19,7 +19,6 @@ function App() {
           <Route path="/patient" element={<Patient />}></Route>
         </Routes>
       </Router>
-      <AdminNavbar />
     </>
   );
 }

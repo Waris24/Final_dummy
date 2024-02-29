@@ -1,13 +1,13 @@
 import React from "react";
-import "./AdminNav.css";
+import "./PatientNav.css";
 
-function AdminNavbar() {
+function PatientNavbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            !LoGo
+            !LoGo!
           </a>
           <button
             className="navbar-toggler"
@@ -29,37 +29,12 @@ function AdminNavbar() {
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Patient activation
+                  Upload data
                 </a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Doctor activation
-                </a>
-              </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link" href="#">
-                  Patients
-                </a>
-              </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link" href="#">
-                  Doctors
-                </a>
-              </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link" href="#">
-                  Files
-                </a>
-              </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link " href="#">
-                  Assign Doctor
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Doctors request
+                  medical data
                 </a>
               </li>
             </ul>
@@ -68,12 +43,12 @@ function AdminNavbar() {
           </div>
         </div>
       </nav>
-      <h1>This is Admin</h1>
-      <div className="hero-content">
+      <h1>This is Patient page</h1>
+      <div className="back-content">
         <p>lorem</p>
       </div>
     </>
   );
 }
 
-export default AdminNavbar;
+export default PatientNavbar;

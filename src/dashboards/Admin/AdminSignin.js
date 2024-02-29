@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import AdminNavbar from "./AdminNavbar";
+
 import "./AdminSignin.css";
 
 function AdminSignin() {
@@ -61,6 +63,9 @@ function AdminSignin() {
           </div>
         </div>
       </div>
+
+      {/* admin page*/}
+      <AdminNavbar />
     </>
   );
 }

@@ -1,13 +1,13 @@
 import React from "react";
-import "./AdminNav.css";
+import "./DoctorNav.css";
 
-function AdminNavbar() {
+function DoctorNavbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            !LoGo
+            !LoGo!
           </a>
           <button
             className="navbar-toggler"
@@ -29,37 +29,27 @@ function AdminNavbar() {
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Patient activation
+                  Patient details
                 </a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Doctor activation
+                  Search Patients
                 </a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Patients
+                  Request Patients
                 </a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Doctors
+                  Share Patients
                 </a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link" href="#">
-                  Files
-                </a>
-              </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link " href="#">
-                  Assign Doctor
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Doctors request
+                  Shared Patients
                 </a>
               </li>
             </ul>
@@ -68,12 +58,12 @@ function AdminNavbar() {
           </div>
         </div>
       </nav>
-      <h1>This is Admin</h1>
-      <div className="hero-content">
+      <h1>This is Doctor page</h1>
+      <div className="bg-content">
         <p>lorem</p>
       </div>
     </>
   );
 }
 
-export default AdminNavbar;
+export default DoctorNavbar;

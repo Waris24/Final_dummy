@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Doctor.css";
+import DoctorNavbar from "./DoctorNavbar";
 
 function Doctor() {
   const [email, setEmail] = useState("");
@@ -61,6 +62,8 @@ function Doctor() {
           </div>
         </div>
       </div>
+      {/* Doctor page */}
+      <DoctorNavbar />
     </>
   );
 }
